@@ -8,7 +8,6 @@ import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
-import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
@@ -17,11 +16,9 @@ import java.io.IOException;
 import java.net.URL;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
-import java.sql.SQLException;
 import java.util.ResourceBundle;
-import Utils.DataSource;
 
-public class HelloController implements Initializable {
+public class SignInController implements Initializable {
     @FXML
     private TextField nomsingup;
 
@@ -46,7 +43,7 @@ public class HelloController implements Initializable {
     public void seconnecter(ActionEvent e) throws IOException
     {
         //singup.getScene().getWindow().hide();
-        Parent root = FXMLLoader.load(getClass().getResource("hello-view.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("sign in.fxml"));
         Scene scene = new Scene(root);
         Stage loginnn=new Stage();
         loginnn.setScene(scene);

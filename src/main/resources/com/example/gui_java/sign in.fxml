@@ -9,13 +9,13 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #2D3447;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gui_java.HelloApplication">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #2D3447;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gui_java.main">
     <children>
         <TextField fx:id="nomsingup" layoutX="176.0" layoutY="165.0" prefHeight="35.0" prefWidth="270.0" promptText="Enter your CIN" style="-fx-background-color: #151928;">
             <font>
                 <Font size="14.0" />
             </font></TextField>
-        <Button fx:id="enregestrerbt" layoutX="260.0" layoutY="291.0" mnemonicParsing="false"  prefHeight="41.0" prefWidth="102.0" style="-fx-background-color: #1296f3;" text="Login">
+        <Button fx:id="enregestrerbt" layoutX="260.0" layoutY="291.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="102.0" style="-fx-background-color: #1296f3;" text="Login">
             <font>
                 <Font size="14.0" />
             </font></Button>
@@ -33,7 +33,7 @@
         </Text>
         <ImageView fitHeight="57.0" fitWidth="64.0" layoutX="170.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
             <image>
-                <Image url="@../../../../image/icons8-tesla-model-s-50.png" />
+                <Image url="@../../../../image/car.png" />
             </image>
         </ImageView>
         <ImageView fitHeight="41.0" fitWidth="39.0" layoutX="115.0" layoutY="161.0" pickOnBounds="true" preserveRatio="true">
@@ -43,7 +43,7 @@
         </ImageView>
         <ImageView fitHeight="35.0" fitWidth="32.0" layoutX="122.0" layoutY="220.0" pickOnBounds="true" preserveRatio="true">
             <image>
-                <Image url="@../../../../image/icons8-password-50.png" />
+                <Image url="@../../../../java/com/example/gui_java/password.png" />
             </image>
         </ImageView>
     </children>
