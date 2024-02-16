@@ -15,7 +15,7 @@
             <font>
                 <Font size="14.0" />
             </font></TextField>
-        <Button fx:id="enregestrerbt" layoutX="260.0" layoutY="291.0" mnemonicParsing="false"  prefHeight="41.0" prefWidth="102.0" style="-fx-background-color: #1296f3;" text="Login">
+        <Button layoutX="260.0" layoutY="291.0" mnemonicParsing="false" onAction="#switchToScence2" prefHeight="41.0" prefWidth="102.0" style="-fx-background-color: #1296f3;" text="Login">
             <font>
                 <Font size="14.0" />
             </font></Button>

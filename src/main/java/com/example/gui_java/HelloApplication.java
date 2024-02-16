@@ -1,6 +1,7 @@
 package com.example.gui_java;
 
 import javafx.application.Application;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
@@ -20,6 +21,9 @@ public class HelloApplication extends Application {
 
     public static void main(String[] args) {
         launch();
+    }
+
+    public void switchToScence2(ActionEvent actionEvent) {
     }
 }
 
