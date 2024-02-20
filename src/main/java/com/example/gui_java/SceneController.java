@@ -25,10 +25,8 @@ public class SceneController {
 
 
     }
-
-
     public void switchToScence2(ActionEvent event) throws IOException{
-        root = FXMLLoader.load(getClass().getResource("LocationMoto.fxml"));
+        root = FXMLLoader.load(getClass().getResource("AchatMoto.fxml"));
         stage=(Stage)((Node)event.getSource()).getScene().getWindow();
         scene = new Scene(root);
         stage.setScene(scene);
