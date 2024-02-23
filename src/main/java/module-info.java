@@ -8,4 +8,7 @@ module com.example.gui_java {
     exports com.example.gui_java;
     opens controllers to javafx.fxml;
     exports controllers;
+
+    exports com.example.gui_java.Controllers;
+    opens com.example.gui_java.Controllers to javafx.fxml;
 }

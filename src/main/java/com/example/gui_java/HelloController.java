@@ -48,10 +48,10 @@ public class HelloController implements Initializable {
         //singup.getScene().getWindow().hide();
         Parent root = FXMLLoader.load(getClass().getResource("hello-view.fxml"));
         Scene scene = new Scene(root);
-        Stage loginnn=new Stage();
-        loginnn.setScene(scene);
-        loginnn.setTitle("MYcaaar");
-        loginnn.show();
+        Stage login=new Stage();
+        login.setScene(scene);
+        login.setTitle("MYcaaar");
+        login.show();
     }
 
 }
