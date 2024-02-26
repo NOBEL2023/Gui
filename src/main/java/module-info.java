@@ -1,9 +1,11 @@
-module com.example.gui_java {
+module com.example.demo11 {
     requires javafx.controls;
     requires javafx.fxml;
-    requires java.sql;
 
+    requires org.controlsfx.controls;
+    requires com.dlsc.formsfx;
+    requires org.kordamp.bootstrapfx.core;
 
-    opens com.example.gui_java to javafx.fxml;
-    exports com.example.gui_java;
+    opens com.example.demo11 to javafx.fxml;
+    exports com.example.demo11;
 }
