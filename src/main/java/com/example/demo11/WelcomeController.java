@@ -36,9 +36,15 @@ public class WelcomeController {
     private void handleServiceClientButton(ActionEvent event) {
         // Placeholder: Add logic for Service Client button
         System.out.println("Service Client button clicked");
-    }
 
+    }
+    public void handleAdminButton(ActionEvent actionEvent) {
+        System.out.println("Admin button clicked");
+        mainApp.switchTogestionadminScene();
+    }
     public void setMainApp(main mainApp) {
         this.mainApp = mainApp;
     }
+
+
 }

@@ -108,7 +108,44 @@ public class main extends Application {
         }
     }
 
+    public void switchTogestionadminScene() {
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("gestionadmin.fxml"));
+            Parent root = loader.load();
+
+            primaryStage.setTitle("admin interface");
+            primaryStage.setScene(new Scene(root, 600, 400));
+
+
+            GestionAdminController GestionAdminController = loader.getController();
+            GestionAdminController.setMainApp(this);
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+
+    public void switchToDetailClientScene() {
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("detailclient.fxml"));
+            Parent root = loader.load();
+
+            primaryStage.setTitle("client interface");
+            primaryStage.setScene(new Scene(root, 600, 400));
+
+
+            DetailClientController detailClientController = loader.getController();
+            detailClientController.setMainApp(this);
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
     public static void main(String[] args) {
         launch(args);
     }
 }
+
+ 

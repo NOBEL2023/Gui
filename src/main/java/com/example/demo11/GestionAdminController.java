@@ -4,7 +4,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 
-public class gestionadmin {
+public class GestionAdminController {
 
     @FXML
     private Button client;
@@ -19,10 +19,17 @@ public class gestionadmin {
     private main mainApp;
 
     @FXML
-    private void handleAdminButton  (ActionEvent event) {
+    private void handleAdminButton(ActionEvent event) {
 
-
+        // Placeholder: Switch to Choose Vehicle Type scene
         mainApp.switchTogestionadminScene();
+    }
+    @FXML
+    private void HandleClient (ActionEvent event) {
+
+        // Placeholder: Switch to Choose Vehicle Type scene
+        mainApp.switchToDetailClientScene();
+
     }
 
     public void setMainApp(main mainApp) {
