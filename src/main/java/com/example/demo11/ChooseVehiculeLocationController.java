@@ -19,8 +19,10 @@ public class ChooseVehiculeLocationController {
 
     @FXML
     private void initialize() {
-        // Populate the choice box with vehicle types
-        vehicleTypeChoiceBox.getItems().addAll("Voiture", "Moto");
+        if (vehicleTypeChoiceBox.getItems().isEmpty()) {
+            // If not populated, add the items
+            vehicleTypeChoiceBox.getItems().addAll("Voiture", "Moto");
+        }
     }
 
     @FXML
@@ -30,9 +32,9 @@ public class ChooseVehiculeLocationController {
         if ("Voiture".equals(selectedVehicleType)) {
 
             mainApp.switchToChooseVehicleSceneAchat();
-        } else {
-
-            System.out.println("Not handling Moto for now");
+        } else if ("Moto".equals(selectedVehicleType)) {
+            // If "Moto" is selected, switch to AchatMoto scene (assuming you have this method)
+            mainApp.switchToAchatMotoScene();
         }
     }
 

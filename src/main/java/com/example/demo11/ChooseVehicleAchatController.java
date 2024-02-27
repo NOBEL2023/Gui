@@ -4,6 +4,8 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.ChoiceBox;
 
+import java.io.IOException;
+
 public class ChooseVehicleAchatController {
 
     @FXML
@@ -19,8 +21,10 @@ public class ChooseVehicleAchatController {
 
     @FXML
     private void initialize() {
-        // Populate the choice box with vehicle types
-        vehicleTypeChoiceBox.getItems().addAll("Voiture", "Moto");
+        if (vehicleTypeChoiceBox.getItems().isEmpty()) {
+            // If not populated, add the items
+            vehicleTypeChoiceBox.getItems().addAll("Voiture", "Moto");
+        }
     }
 
     @FXML
@@ -30,15 +34,19 @@ public class ChooseVehicleAchatController {
         if ("Voiture".equals(selectedVehicleType)) {
             // If "Voiture" is selected, switch to AchatVoiture scene
             mainApp.switchToAchatVoitureScene();
-        } else {
-            // Handle other vehicle types or show a message
-            System.out.println("Not handling Moto for now");
+        } else if ("Moto".equals(selectedVehicleType)) {
+            // If "Moto" is selected, switch to AchatMoto scene (assuming you have this method)
+            mainApp.switchToAchatMotoScene();
         }
     }
 
     @FXML
     private void handleCancelButton(ActionEvent event) {
-        //mainApp.switchToWelcomeScene();
+        try {
+            mainApp.switchToWelcomeScene();
+        } catch (IOException e) {
+            e.printStackTrace(); // Handle the exception according to your application's requirements
+        }
     }
 
     public void setMainApp(main mainApp) {
