@@ -38,7 +38,7 @@ public class ChooseVehiculeLocationController {
 
     @FXML
     private void handleCancelButton(ActionEvent event) {
-        mainApp.switchToWelcomeScene();
+        //mainApp.switchToWelcomeScene();
     }
 
     public void setMainApp(main mainApp) {

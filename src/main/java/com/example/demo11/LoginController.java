@@ -43,7 +43,7 @@ public class LoginController {
             simulateLogin(username);
 
 
-            mainApp.switchToWelcomeScene();
+            //mainApp.switchToWelcomeScene();
         } else {
             showErrorAlert("Invalid Input", "Please fill in both username and password.");
         }
