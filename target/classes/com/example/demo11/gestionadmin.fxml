@@ -16,12 +16,12 @@
             <Font name="System Bold Italic" size="22.0" />
          </font>
       </Button>
-      <Button fx:id="reservation" layoutX="183.0" layoutY="167.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="197.0" text="reservation" textFill="#9e9b13">
+      <Button fx:id="reservation" layoutX="183.0" layoutY="167.0" mnemonicParsing="false" onAction="#Handlereservation" prefHeight="38.0" prefWidth="197.0" text="reservation" textFill="#9e9b13">
          <font>
             <Font name="System Bold Italic" size="22.0" />
          </font>
       </Button>
-      <Button fx:id="contrat" layoutX="256.0" layoutY="235.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="180.0" text="contrat" textFill="#9e9b13">
+      <Button fx:id="contrat" layoutX="256.0" layoutY="235.0" mnemonicParsing="false" onAction="#Handlecontrat" prefHeight="36.0" prefWidth="180.0" text="contrat" textFill="#9e9b13">
          <font>
             <Font name="System Bold Italic" size="22.0" />
          </font>

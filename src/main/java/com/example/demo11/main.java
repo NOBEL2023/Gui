@@ -160,11 +160,44 @@ public class main extends Application {
         }
 
     }
+
+    public void switchToDetailReservationScene() {
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("detailreservation.fxml"));
+            Parent root = loader.load();
+
+            primaryStage.setTitle("reservation interface");
+            primaryStage.setScene(new Scene(root, 600, 400));
+
+
+            DetailReservationController DetailReservationController = loader.getController();
+            DetailReservationController.setMainApp(this);
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void switchToDetailContratScene() {
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("detailrcontrat.fxml"));
+            Parent root = loader.load();
+
+            primaryStage.setTitle("contrat interface");
+            primaryStage.setScene(new Scene(root, 600, 400));
+
+
+            DetailContratController DetailContratController = loader.getController();
+            DetailContratController.setMainApp(this);
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
     public static void main(String[] args) {
         launch(args);
     }
-
-
 }
 
  
