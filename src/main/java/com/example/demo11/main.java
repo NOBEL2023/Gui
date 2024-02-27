@@ -143,9 +143,28 @@ public class main extends Application {
         }
 
     }
+    public void switchToDetailVehiculeScene() {
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("detailvehicule.fxml"));
+            Parent root = loader.load();
+
+            primaryStage.setTitle("vehicule interface");
+            primaryStage.setScene(new Scene(root, 600, 400));
+
+
+            DetailVehiculeController DetailVehiculeController = loader.getController();
+            DetailVehiculeController.setMainApp(this);
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
     public static void main(String[] args) {
         launch(args);
     }
+
+
 }
 
  

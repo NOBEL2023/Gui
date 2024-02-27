@@ -31,6 +31,13 @@ public class GestionAdminController {
         mainApp.switchToDetailClientScene();
 
     }
+    @FXML
+    private void Handlevehicule (ActionEvent event) {
+
+        // Placeholder: Switch to Choose Vehicle Type scene
+        mainApp.switchToDetailVehiculeScene();
+
+    }
 
     public void setMainApp(main mainApp) {
         this.mainApp = mainApp;
