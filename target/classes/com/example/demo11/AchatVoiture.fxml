@@ -24,7 +24,7 @@
         <ComboBox fx:id="carburantComboBox" layoutX="422.0" layoutY="179.0" prefWidth="150.0" />
         <Label fx:id="miseEnCirculationLabel" layoutX="310.0" layoutY="235.0" text="Mise en Circulation" textFill="WHITE" />
         <ComboBox fx:id="miseEnCirculationComboBox" layoutX="422.0" layoutY="231.0" prefWidth="150.0" />
-        <Button fx:id="acheterButton" layoutX="179.0" layoutY="335.0" mnemonicParsing="false" style="-fx-background-color: #1296f3;" text="Acheter" />
-        <Button fx:id="annulerButton" layoutX="344.0" layoutY="335.0" mnemonicParsing="false" style="-fx-background-color: #1296f3;" text="Annuler" />
+        <Button fx:id="acheterButton" layoutX="179.0" layoutY="335.0" mnemonicParsing="false" onAction="#handleAcheterButton" style="-fx-background-color: #1296f3;" text="Acheter" />
+        <Button fx:id="annulerButton" layoutX="344.0" layoutY="335.0" mnemonicParsing="false" onAction="#handleAnnulerButton" style="-fx-background-color: #1296f3;" text="Annuler" />
     </children>
 </AnchorPane>

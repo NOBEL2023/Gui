@@ -33,14 +33,14 @@ public class ChooseVehiculeLocationController {
 
             mainApp.switchToChooseVehicleSceneAchat();
         } else if ("Moto".equals(selectedVehicleType)) {
-            // If "Moto" is selected, switch to AchatMoto scene (assuming you have this method)
+
             mainApp.switchToAchatMotoScene();
         }
     }
 
     @FXML
     private void handleCancelButton(ActionEvent event) {
-        //mainApp.switchToWelcomeScene();
+        mainApp.switchToAchatVoitureScene();
     }
 
     public void setMainApp(main mainApp) {

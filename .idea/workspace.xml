@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29df4eb4-9a1d-4372-baae-dd5eeca033c3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo11/AchatMotoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo11/LocationMotoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo11/AchatMoto.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo11/ChooseVehicleAchatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo11/ChooseVehicleAchatController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo11/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo11/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo11/ChooseVehicleAchatController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo11/ChooseVehicleAchatController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo11/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo11/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo11/ChooseVehiculeLocationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo11/ChooseVehiculeLocationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/demo11/Welcome.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo11/Welcome.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo11/ChooseVehiculeLocationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo11/ChooseVehiculeLocationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo11/Welcome.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo11/Welcome.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

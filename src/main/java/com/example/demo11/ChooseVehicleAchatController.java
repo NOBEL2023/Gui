@@ -32,10 +32,10 @@ public class ChooseVehicleAchatController {
         String selectedVehicleType = vehicleTypeChoiceBox.getValue();
 
         if ("Voiture".equals(selectedVehicleType)) {
-            // If "Voiture" is selected, switch to AchatVoiture scene
+
             mainApp.switchToAchatVoitureScene();
         } else if ("Moto".equals(selectedVehicleType)) {
-            // If "Moto" is selected, switch to AchatMoto scene (assuming you have this method)
+
             mainApp.switchToAchatMotoScene();
         }
     }
@@ -45,7 +45,7 @@ public class ChooseVehicleAchatController {
         try {
             mainApp.switchToWelcomeScene();
         } catch (IOException e) {
-            e.printStackTrace(); // Handle the exception according to your application's requirements
+            e.printStackTrace();
         }
     }
 
