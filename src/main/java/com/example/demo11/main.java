@@ -17,36 +17,39 @@ public class main extends Application {
         this.primaryStage = primaryStage;
 
         try {
-            showLoginScene();
+            switchToWelcomeScene();
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
-    private void showLoginScene() throws IOException {
+
+
+    public void showLoginScene() throws IOException {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("Login.fxml"));
         Parent root = loader.load();
         primaryStage.setTitle("Login Form");
         primaryStage.setScene(new Scene(root, 600, 400));
-        primaryStage.show();
-        primaryStage.setResizable(false);
 
-
-        primaryStage.setOnCloseRequest(event -> System.exit(0));
 
 
         LoginController loginController = loader.getController();
         loginController.setMainApp(this);
     }
 
-    public void switchToWelcomeScene() {
+
+    public void switchToWelcomeScene() throws IOException{
         try {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("Welcome.fxml"));
             Parent root = loader.load();
 
             primaryStage.setTitle("Welcome to Karhabti");
             primaryStage.setScene(new Scene(root, 600, 400));
+            primaryStage.show();
+            primaryStage.setResizable(false);
 
+
+            primaryStage.setOnCloseRequest(event -> System.exit(0));
 
             WelcomeController welcomeController = loader.getController();
             welcomeController.setMainApp(this);
@@ -55,7 +58,22 @@ public class main extends Application {
             e.printStackTrace();
         }
     }
+    public void switchToAchatMotoScene() {
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("AchatMoto.fxml"));
+            Parent root = loader.load();
 
+            primaryStage.setTitle("Choose Vehicle Type");
+            primaryStage.setScene(new Scene(root, 600, 400));
+
+
+            ChooseVehicleAchatController chooseVehicleAchatController = loader.getController();
+            chooseVehicleAchatController.setMainApp(this);
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
     public void switchToChooseVehicleSceneAchat() {
         try {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("ChooseVehicleAchat.fxml"));

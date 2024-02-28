@@ -5,7 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29df4eb4-9a1d-4372-baae-dd5eeca033c3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/JAVAFX_20240228T210927Z_001.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI_Java.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entite/Contrat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entite/Moto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entite/Reservation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entite/ServiceClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entite/Voiture.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entite/act.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entite/client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entite/service_entretien.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entite/user.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entite/vehicule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/IService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/IServiceContrat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/ServiceClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/ServiceContrat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/ServiceReservation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/ServiceUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/ServiceVehicule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utils/DataSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo11/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo11/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo11/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo11/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo11/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo11/LoginController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,14 +67,18 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "GUI__admin",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/yasmi/Documents/Gui",
+    "last_opened_file_path": "C:/Users/yasmi/Downloads/JAVAFX-20240228T210927Z-001",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.12929146",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
