@@ -94,7 +94,7 @@ public class AchatVoitureController {
 
     @FXML
     private void handleAcheterButton() {
-        // Implement logic for the "Acheter" button
+
         System.out.println("Acheter button clicked");
     }
 

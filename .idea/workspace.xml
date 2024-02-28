@@ -6,11 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="29df4eb4-9a1d-4372-baae-dd5eeca033c3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo11/ChooseVehicleAchatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo11/ChooseVehicleAchatController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo11/ChooseVehiculeLocationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo11/ChooseVehiculeLocationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/demo11/Welcome.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo11/Welcome.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo11/ChooseVehiculeLocationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo11/ChooseVehiculeLocationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo11/Welcome.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo11/Welcome.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo11/AchatMotoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo11/AchatMotoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo11/AchatVoitureController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo11/AchatVoitureController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/demo11/AchatMoto.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo11/AchatMoto.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -41,23 +39,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;latestjavafx&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/yasmi/Documents/Gui&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "latestjavafx",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/yasmi/Documents/Gui",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example.demo11" />
@@ -80,6 +79,7 @@
       <updated>1708978728631</updated>
       <workItem from="1708978729700" duration="2613000" />
       <workItem from="1709026540923" duration="15768000" />
+      <workItem from="1709145212084" duration="1848000" />
     </task>
     <servers />
   </component>
