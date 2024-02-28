@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3eddf47b-a55d-48bd-b3e8-6b7330fbd069" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo11/AchatMotoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo11/AchatMoto.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo11/AchatVoitureController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo11/AchatVoitureController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo11/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo11/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo11/WelcomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo11/WelcomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/demo11/AchatVoiture.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo11/AchatVoiture.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/demo11/ChooseVehicleAchat.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo11/ChooseVehicleAchat.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/demo11/ChooseVehicleLocation.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo11/ChooseVehicleLocation.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/demo11/Login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo11/Login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/demo11/Welcome.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo11/Welcome.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo11/AchatVoiture.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo11/AchatVoiture.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo11/ChooseVehicleAchat.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo11/ChooseVehicleAchat.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo11/ChooseVehicleLocation.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo11/ChooseVehicleLocation.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo11/Login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo11/Login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo11/Welcome.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo11/Welcome.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo11/WelcomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo11/WelcomeController.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.main.executor": "Run",
+    "git-widget-placeholder": "master",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <servers />
+  </component>
+</project>

@@ -4,6 +4,8 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 
+import java.io.IOException;
+
 public class WelcomeController {
 
     @FXML
@@ -38,9 +40,9 @@ public class WelcomeController {
         System.out.println("Service Client button clicked");
 
     }
-    public void handleAdminButton(ActionEvent actionEvent) {
+    public void handleAdminButton(ActionEvent actionEvent) throws IOException {
         System.out.println("Admin button clicked");
-        mainApp.switchTogestionadminScene();
+        mainApp.showLoginScene();
     }
     public void setMainApp(main mainApp) {
         this.mainApp = mainApp;

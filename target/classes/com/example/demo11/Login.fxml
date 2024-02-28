@@ -14,25 +14,25 @@
         <TextField fx:id="usernameTextField" layoutX="243.0" layoutY="138.0" prefHeight="33.0" prefWidth="163.0" promptText="Username" />
         <PasswordField fx:id="passwordField" layoutX="243.0" layoutY="206.0" prefHeight="33.0" prefWidth="163.0" promptText="Password" />
         <Button fx:id="loginButton" layoutX="264.0" layoutY="293.0" mnemonicParsing="false" onAction="#handleLoginButton" prefHeight="33.0" prefWidth="88.0" style="-fx-background-color: #1296f3;" text="Login" />
-      <Label layoutX="205.0" layoutY="12.0" text="Agence Karhabti" textFill="#94d8eb">
-         <font>
-            <Font size="36.0" />
-         </font>
-      </Label>
-      <ImageView fitHeight="60.0" fitWidth="62.0" layoutX="125.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../../Images/car.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="33.0" fitWidth="42.0" layoutX="194.0" layoutY="138.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../../Images/icons8-user-50.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="33.0" fitWidth="33.0" layoutX="194.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../../Images/password.png" />
-         </image>
-      </ImageView>
+        <Label layoutX="205.0" layoutY="12.0" text="Agence Karhabti" textFill="#94d8eb">
+            <font>
+                <Font size="36.0" />
+            </font>
+        </Label>
+        <ImageView fitHeight="60.0" fitWidth="62.0" layoutX="125.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../Images/car.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="33.0" fitWidth="42.0" layoutX="194.0" layoutY="138.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../Images/icons8-user-50.png" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="33.0" fitWidth="33.0" layoutX="194.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../Images/password.png" />
+            </image>
+        </ImageView>
     </children>
 </Pane>
