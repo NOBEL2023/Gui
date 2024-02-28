@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29df4eb4-9a1d-4372-baae-dd5eeca033c3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo11/DetailContratController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo11/DetailReservationController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo11/GestionAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo11/GestionAdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo11/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo11/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/demo11/ChooseVehicleAchat.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo11/ChooseVehicleAchat.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/demo11/gestionadmin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo11/gestionadmin.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo11/GestionAdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo11/GestionAdminController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo11/gestionadmin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo11/gestionadmin.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo11/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo11/main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1708978728631</updated>
       <workItem from="1708978729700" duration="2613000" />
-      <workItem from="1709026540923" duration="23943000" />
+      <workItem from="1709026540923" duration="25862000" />
     </task>
     <servers />
   </component>

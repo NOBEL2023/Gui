@@ -180,7 +180,7 @@ public class main extends Application {
 
     public void switchToDetailContratScene() {
         try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("detailrcontrat.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("detailcontrat.fxml"));
             Parent root = loader.load();
 
             primaryStage.setTitle("contrat interface");
