@@ -38,14 +38,12 @@ public class LoginController {
         String username = usernameTextField.getText();
         String password = passwordField.getText();
 
-        if (username.equals("admin")  && password.equals("admin")  )
+        if (isValidInput(username, password)) {
 
-        {
-
-
+            simulateLogin(username);
 
 
-            mainApp.switchToWelcomeScene();
+            //mainApp.switchToWelcomeScene();
         } else {
             showErrorAlert("Invalid Input", "Please fill in both username and password.");
         }
@@ -88,3 +86,4 @@ public class LoginController {
         this.mainApp = mainApp;
     }
 }
+
