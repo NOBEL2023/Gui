@@ -2,20 +2,17 @@ package com.example.demo11;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
+import javafx.scene.control.*;
 import javafx.stage.Stage;
-import javafx.fxml.FXMLLoader;
 
 import java.io.IOException;
+import java.time.LocalDate;
+import java.time.temporal.ChronoUnit;
 
-import javafx.fxml.FXML;
-import javafx.scene.control.Button;
-import javafx.scene.control.ComboBox;
-import javafx.scene.control.Label;
-
-public class AchatVoitureController {
+public class LocationVoitureController {
 
     @FXML
     private Label achatVoitureLabel;
@@ -34,9 +31,20 @@ public class AchatVoitureController {
 
     @FXML
     private Label prixLabel;
+    @FXML
+    private Label clientCINLabel;
 
     @FXML
-    private ComboBox<Double> prixComboBox;
+    private TextField clientCINTextField;
+
+    @FXML
+    private Label carMatriculLabel;
+
+    @FXML
+    private TextField carMatriculTextField;
+
+    @FXML
+    private Label prixValueLabel;
 
     @FXML
     private Label modeleLabel;
@@ -62,6 +70,12 @@ public class AchatVoitureController {
     @FXML
     private Button annulerButton;
 
+    @FXML
+    private DatePicker startDayPicker;
+
+    @FXML
+    private DatePicker endDayPicker;
+
     private main mainApp;
 
     @FXML
@@ -75,10 +89,6 @@ public class AchatVoitureController {
             kilometrageComboBox.getItems().addAll(10000, 20000, 30000, 40000, 50000);
         }
 
-        if (prixComboBox != null) {
-            prixComboBox.getItems().addAll(15000.0, 20000.0, 25000.0, 30000.0, 35000.0);
-        }
-
         if (modeleComboBox != null) {
             modeleComboBox.getItems().addAll("Sedan", "SUV", "Truck", "Coupe", "Convertible");
         }
@@ -90,17 +100,25 @@ public class AchatVoitureController {
         if (miseEnCirculationComboBox != null) {
             miseEnCirculationComboBox.getItems().addAll("2022-01-01", "2021-08-15", "2020-05-20", "2019-11-10", "2018-07-03");
         }
-    }
 
+        // Add listeners to the date pickers
+        startDayPicker.valueProperty().addListener((obs, oldDate, newDate) -> updatePrice());
+        endDayPicker.valueProperty().addListener((obs, oldDate, newDate) -> updatePrice());
+    }
     @FXML
     private void handleAcheterButton() {
         try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("ContractAchat.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("Contract.fxml"));
             Parent root = loader.load();
 
-            ContractControllerAchat contractControllerAchat = loader.getController();
-            String carDetails = marqueComboBox.getValue() + " " + modeleComboBox.getValue() + " " + kilometrageComboBox.getValue() + " " + prixComboBox.getValue() + " " + carburantComboBox.getValue() + " " + miseEnCirculationComboBox.getValue();
-            contractControllerAchat.setContractDetails(carDetails);
+            ContractController contractController = loader.getController();
+            String carDetails = marqueComboBox.getValue() + " " + modeleComboBox.getValue();
+            LocalDate startDate = startDayPicker.getValue();
+            LocalDate endDate = endDayPicker.getValue();
+            String cin = clientCINTextField.getText();
+            String matricule = carMatriculTextField.getText();
+            String price = prixValueLabel.getText();
+            contractController.setContractDetails(carDetails, startDate, endDate, cin, matricule, price);
 
             Stage stage = (Stage) acheterButton.getScene().getWindow();
             stage.setScene(new Scene(root));
@@ -109,15 +127,23 @@ public class AchatVoitureController {
             e.printStackTrace();
         }
     }
+    @FXML
+    public void updatePrice() {
+        LocalDate startDate = startDayPicker.getValue();
+        LocalDate endDate = endDayPicker.getValue();
+
+        if (startDate != null && endDate != null) {
+            long daysBetween = ChronoUnit.DAYS.between(startDate, endDate);
+            double price = daysBetween * 80;
+            prixValueLabel.setText(String.valueOf(price) + " DT");
+        }
+    }
 
 
     @FXML
     private void handleAnnulerButton(ActionEvent event) {
-
         mainApp.switchToChooseVehicleSceneAchat();
     }
-
-
 
     public void setMainApp(main mainApp) {
         this.mainApp = mainApp;

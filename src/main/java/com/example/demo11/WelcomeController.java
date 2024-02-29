@@ -28,8 +28,11 @@ public class WelcomeController {
 
     @FXML
     private void handleLocationButton(ActionEvent event) {
-        // Placeholder: Add logic for Location button
+        // Logic for Location button
         System.out.println("Location button clicked");
+
+        // Switch to Location scene
+        mainApp.switchToChooseVehicleSceneLocation();
     }
 
     @FXML

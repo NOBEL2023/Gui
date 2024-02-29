@@ -12,7 +12,7 @@
             <Font size="36.0" />
          </font></Label>
         <Button layoutX="230.0" layoutY="127.0" mnemonicParsing="false" onAction="#handleAchatButton" prefHeight="52.0" prefWidth="128.0" style="-fx-background-color: #1296f3;" text="Achat" />
-      <Button layoutX="230.0" layoutY="208.0" mnemonicParsing="false" onAction="#handleAchatButton" prefHeight="52.0" prefWidth="128.0" style="-fx-background-color: #1296f3;" text="Location" />
+      <Button layoutX="230.0" layoutY="208.0" mnemonicParsing="false" onAction="#handleLocationButton" prefHeight="52.0" prefWidth="128.0" style="-fx-background-color: #1296f3;" text="Locationss" />
       <Button layoutX="230.0" layoutY="285.0" mnemonicParsing="false" onAction="#handleAchatButton" prefHeight="52.0" prefWidth="128.0" style="-fx-background-color: #1296f3;" text="Service Client" />
       <Button layoutX="433.0" layoutY="91.0" mnemonicParsing="false" onAction="#handleAdminButton" prefHeight="52.0" prefWidth="128.0" style="-fx-background-color: #1296f3;" text="Admin" />
     </children>

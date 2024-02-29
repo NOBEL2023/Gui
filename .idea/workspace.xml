@@ -5,15 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29df4eb4-9a1d-4372-baae-dd5eeca033c3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo11/DetailClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo11/DetailClientController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo11/GestionAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo11/GestionAdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo11/ContractController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo11/ContractControllerAchat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo11/LocationVoitureController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo11/LocationVoiture.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo11/contract.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo11/contractAchat.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo11/dashboard.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo11/dashboardDesign.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo11/AchatVoitureController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo11/AchatVoitureController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo11/ChooseVehiculeLocationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo11/ChooseVehiculeLocationController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo11/WelcomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo11/WelcomeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo11/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo11/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/demo11/AchatVoiture.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo11/AchatVoiture.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/demo11/ChooseVehicleLocation.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo11/ChooseVehicleLocation.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/demo11/Welcome.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo11/Welcome.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo11/Scene7.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo11/Scene7Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo11/AchatVoiture.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo11/AchatVoiture.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo11/AchatVoitureController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo11/AchatVoitureController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo11/ChooseVehicleLocation.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo11/ChooseVehicleLocation.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo11/ChooseVehiculeLocationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo11/ChooseVehiculeLocationController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo11/Welcome.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo11/Welcome.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo11/WelcomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo11/WelcomeController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo11/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo11/main.class" afterDir="false" />
@@ -38,6 +49,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/resources/com/example/demo11/dashboard.fxml" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -54,7 +68,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "latestjavafx",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/yasmi/Documents/Gui",
+    "last_opened_file_path": "/Users/azer/JavaFxLogInForm/CarRentalManagementSystem/CarRentalManagementSystem/src/Gui/src/main/resources/com/example/demo11",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -67,6 +81,27 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example.demo11" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/com/example/demo11" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.demo11" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="demo11" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="demo11" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
