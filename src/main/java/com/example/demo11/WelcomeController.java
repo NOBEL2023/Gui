@@ -27,23 +27,27 @@ public class WelcomeController {
         // Placeholder: Switch to Choose Vehicle Type scene
         mainApp.switchToChooseVehicleSceneAchat();
     }
-
     @FXML
     private void handleLocationButton(ActionEvent event) {
-        // Placeholder: Add logic for Location button
+        // Logic for Location button
         System.out.println("Location button clicked");
+
+        // Switch to Location scene
+        mainApp.switchToChooseVehicleSceneLocation();
     }
 
     @FXML
     private void handleServiceClientButton(ActionEvent event) {
         // Placeholder: Add logic for Service Client button
         System.out.println("Service Client button clicked");
+        mainApp.switchToAchatMotoScene();
 
     }
     public void handleAdminButton(ActionEvent actionEvent) throws IOException {
         System.out.println("Admin button clicked");
         mainApp.showLoginScene();
     }
+
     public void setMainApp(main mainApp) {
         this.mainApp = mainApp;
     }

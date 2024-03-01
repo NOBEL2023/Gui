@@ -16,10 +16,10 @@
         <ChoiceBox fx:id="cylindreChoiceBox" layoutX="261.0" layoutY="196.0" prefWidth="150.0" />
         <Button fx:id="confirmerButton" layoutX="186.0" layoutY="280.0" mnemonicParsing="false" onAction="#handleConfirmerButton" text="Confirmer" />
         <Button fx:id="annulerButton" layoutX="311.0" layoutY="280.0" mnemonicParsing="false" onAction="#handleAnnulerButton" text="Annuler" />
-        <Label layoutX="70.0" layoutY="14.0" text="Choisissez une moto à acheter" textFill="#f5f5f5">
-            <font>
-                <Font size="36.0" />
-            </font>
-        </Label>
+      <Label layoutX="70.0" layoutY="14.0" text="Choisissez une moto à acheter" textFill="#f5f5f5">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
     </children>
 </AnchorPane>

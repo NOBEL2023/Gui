@@ -14,14 +14,7 @@
             <font>
                 <Font size="36.0" />
             </font></Label>
-        <ChoiceBox fx:id="vehicleTypeChoiceBox" layoutX="209.0" layoutY="138.0" prefWidth="166.0">
-            <items>
-                <FXCollections fx:factory="observableArrayList">
-                    <String fx:value="Voiture" />
-                    <String fx:value="Moto" />
-                </FXCollections>
-            </items>
-        </ChoiceBox>
+        <ChoiceBox fx:id="vehicleTypeChoiceBox" layoutX="209.0" layoutY="138.0" prefWidth="166.0" />
         <Button fx:id="confirmButton" layoutX="193.0" layoutY="233.0" mnemonicParsing="false" onAction="#handleConfirmButton" style="-fx-background-color: #1296f3;" text="Confirmer" />
         <Button fx:id="cancelButton" layoutX="323.0" layoutY="233.0" mnemonicParsing="false" onAction="#handleCancelButton" style="-fx-background-color: #1296f3;" text="Annuler" />
     </children>

@@ -126,6 +126,23 @@ public class main extends Application {
         }
     }
 
+    public void switchToLocationtVoitureScene() {
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("LocationVoiture.fxml"));
+            Parent root = loader.load();
+
+            primaryStage.setTitle("Achat Voiture");
+            primaryStage.setScene(new Scene(root, 600, 400));
+
+
+            AchatVoitureController achatVoitureController = loader.getController();
+            achatVoitureController.setMainApp(this);
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
     public void switchTogestionadminScene() {
         try {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("gestionadmin.fxml"));

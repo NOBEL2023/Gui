@@ -39,18 +39,19 @@ public class GestionAdminController {
 
     }
 
-    @FXML
-    private void Handlereservation (ActionEvent event) {
 
-        // Placeholder: Switch to Choose Vehicle Type scene
-        mainApp.switchToDetailReservationScene();
-
-    }
     @FXML
     private void Handlecontrat (ActionEvent event) {
 
         // Placeholder: Switch to Choose Vehicle Type scene
         mainApp.switchToDetailContratScene();
+
+    }
+    @FXML
+    private void Handlereservation (ActionEvent event) {
+
+        // Placeholder: Switch to Choose Vehicle Type scene
+        mainApp.switchToDetailReservationScene();
 
     }
 

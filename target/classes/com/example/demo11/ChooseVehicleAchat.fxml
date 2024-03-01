@@ -11,9 +11,9 @@
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #2D3447;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo11.ChooseVehicleAchatController">
     <children>
         <Label layoutX="78.0" layoutY="21.0" text="Choisissz un véhicule à acheter" textFill="WHITE">
-            <font>
-                <Font size="36.0" />
-            </font></Label>
+         <font>
+            <Font size="36.0" />
+         </font></Label>
         <ChoiceBox fx:id="vehicleTypeChoiceBox" layoutX="209.0" layoutY="138.0" prefWidth="166.0">
             <items>
                 <FXCollections fx:factory="observableArrayList">
