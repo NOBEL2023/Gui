@@ -7,13 +7,13 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #2D3447;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo11.WelcomeController">
     <children>
-        <Label layoutX="142.0" layoutY="24.0" text="Choissez un service " textFill="WHITE">
+        <Label layoutX="110.0" layoutY="25.0" text="Choisissez un service " textFill="WHITE">
          <font>
             <Font size="36.0" />
          </font></Label>
         <Button layoutX="230.0" layoutY="127.0" mnemonicParsing="false" onAction="#handleAchatButton" prefHeight="52.0" prefWidth="128.0" style="-fx-background-color: #1296f3;" text="Achat" />
       <Button layoutX="230.0" layoutY="208.0" mnemonicParsing="false" onAction="#handleLocationButton" prefHeight="52.0" prefWidth="128.0" style="-fx-background-color: #1296f3;" text="Locationss" />
       <Button layoutX="230.0" layoutY="285.0" mnemonicParsing="false" onAction="#handleAchatButton" prefHeight="52.0" prefWidth="128.0" style="-fx-background-color: #1296f3;" text="Service Client" />
-      <Button layoutX="433.0" layoutY="91.0" mnemonicParsing="false" onAction="#handleAdminButton" prefHeight="52.0" prefWidth="128.0" style="-fx-background-color: #1296f3;" text="Admin" />
+      <Button layoutX="495.0" layoutY="25.0" mnemonicParsing="false" onAction="#handleAdminButton" prefHeight="28.0" prefWidth="91.0" style="-fx-background-color: #c9c1c1;" text="Se connecter" />
     </children>
 </AnchorPane>
