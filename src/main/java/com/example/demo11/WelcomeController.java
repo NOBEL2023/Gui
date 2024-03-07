@@ -42,6 +42,14 @@ public class WelcomeController {
         System.out.println("Admin button clicked");
         mainApp.switchTogestionadminScene();
     }
+    @FXML
+    private void handleEventButton(ActionEvent event) {
+        // Placeholder: Add logic for Achat button
+        System.out.println("event button clicked");
+
+        // Placeholder: Switch to Choose Vehicle Type scene
+        mainApp.switchToAnniversiareKarhabtiScene();
+    }
     public void setMainApp(main mainApp) {
         this.mainApp = mainApp;
     }

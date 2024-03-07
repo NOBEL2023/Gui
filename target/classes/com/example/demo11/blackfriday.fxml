@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane accessibleRole="TEXT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #2D3447;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo11.BlackFridayController">
+   <children>
+      <Text fx:id="text3" fill="#98992e" layoutX="14.0" layoutY="345.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Venez faire des économies tout en vous faisant plaisir ;)" wrappingWidth="584.5830783843994">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </Text>
+      <Button layoutX="179.0" layoutY="246.0" mnemonicParsing="false" onAction="#handlereserverblackfriday" prefHeight="56.0" prefWidth="207.0" text="Reserver" textAlignment="RIGHT" textFill="#d43d35" textOverrun="CLIP">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="82.0" fitWidth="87.0" layoutX="498.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../Downloads/Gui/src/main/image/icons8-tesla-model-s-50.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="text1" layoutX="164.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BLACK FRIDAY">
+         <font>
+            <Font name="System Bold Italic" size="39.0" />
+         </font>
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" startY="0.1704544732064912">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Text>
+      <Button layoutX="178.0" layoutY="96.0" mnemonicParsing="false" onAction="#handleinfoblackfriday" prefHeight="46.0" prefWidth="198.0" text="INFO" textAlignment="RIGHT" textFill="#d43d35" textOverrun="CLIP">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Button>
+      <ComboBox fx:id="Nombreparticipants" layoutX="177.0" layoutY="160.0" prefHeight="56.0" prefWidth="207.0" promptText="Nombre participants" style="-fx-background-color: #d43d35;" />
+      <Button layoutX="507.0" layoutY="364.0" mnemonicParsing="false" onAction="#handlebuttonretour" prefHeight="32.0" prefWidth="82.0" text="Retour" textFill="#c33816">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

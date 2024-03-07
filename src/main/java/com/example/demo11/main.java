@@ -198,6 +198,65 @@ public class main extends Application {
     public static void main(String[] args) {
         launch(args);
     }
+
+    public void switchtoEventControllerscene() {
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("evenement.fxml"));
+            Parent root = loader.load();
+
+            primaryStage.setTitle("CreerEvent interface");
+            primaryStage.setScene(new Scene(root, 600, 400));
+
+
+           EventController EventController = loader.getController();
+            EventController.setMainApp(this);
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void switchToAnniversiareKarhabtiScene() {
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("anniversairekarhabti.fxml"));
+            Parent root = loader.load();
+
+            primaryStage.setTitle("Anniversaire KARHABTI interface");
+            primaryStage.setScene(new Scene(root, 600, 400));
+
+
+            AnniversaireKarhabtiController AnniversaireKarhabtiController = loader.getController();
+            AnniversaireKarhabtiController.setMainApp(this);
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    public void switchToBlackFridayScene() {
+
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("blackfriday.fxml"));
+            Parent root = loader.load();
+
+            primaryStage.setTitle("Black Friday Event interface");
+            primaryStage.setScene(new Scene(root, 600, 400));
+
+
+            BlackFridayController BlackFridayController = loader.getController();
+            BlackFridayController.setMainApp(this);
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void switchToFoireScene() {
+    }
+
+
 }
+
 
  
